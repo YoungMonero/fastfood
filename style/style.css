@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.main-head {
+  background-image: url("../images/background\ menu.jpg");
+  height: 350px;
+  color: #fff;
+}
+
+.main-p {
+  width: 85%;
+  text-align: center;
+  justify-self: center;
+}
+
+.main-head h2 {
+  font-size: 1.7rem;
+  padding-top: 60px;
+}
+
+.main-head p {
+  font-weight: 300;
+}
+
+.section-two {
+  margin-top: 60px;
+}
+
+.section-twob {
+  width: 95%;
+  margin-left: 10px;
+}
+
+.section-two h2 {
+  text-align: center;
+}
+
+.appetizers,
+.appetizer-two,
+.appetizer-three,
+.appetizer-four {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.appetizers img,
+.appetizer-two img,
+.appetizer-three img,
+.appetizer-four img {
+  width: 95%;
+  margin-left: 5px;
+  height: 250px;
+}
+
+.appetizers p,
+.appetizer-two p,
+.appetizer-three p,
+.appetizer-four p {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.appetizers h4,
+.appetizer-two h4,
+.appetizer-three h4,
+.appetizer-four h4 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.order {
+  padding: 10px;
+  background-color: #e4441c;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.buttond {
+  justify-self: center;
+}
+
+.dishes {
+  background-color: #e4441c;
+  margin-top: 40px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.one-div img {
+  width: 300px;
+}
+
+.butt {
+  padding: 10px;
+  color: #fff;
+  background-color: #eefd12;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  border: none;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.dishesp h2 {
+  padding-top: 30px;
+}
+
+.dishesp {
+  margin-bottom: 40px;
+}
