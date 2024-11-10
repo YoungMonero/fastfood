@@ -1,4 +1,51 @@
 * {
   padding: 0;
   margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.template {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+nav {
+  display: none;
+}
+
+.burger {
+  margin-top: 20px;
+  padding-left: 20px;
+  background-color: #e4441c;
+  color: #fff;
+}
+
+.burger h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.burger button {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fbfb5b;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+img {
+  width: 300px;
+  margin-top: 1rem;
 }
