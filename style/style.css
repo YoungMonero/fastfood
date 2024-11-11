@@ -12,7 +12,7 @@
 }
 
 header {
-  padding: 15px;
+  padding: 7px;
 }
 
 
@@ -260,6 +260,16 @@ body {
   .ma img {
     height: 300px;
     margin-left: 5px;
+  }
+
+  .template {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bars {
+    display: flex;
+    gap: 2rem;
   }
 }
 
