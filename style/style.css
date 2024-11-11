@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+.header-name {
+  font-family: Matemasie, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #e4441c;
+  font-size: 2rem;
+}
+
+header {
+  padding: 7px;
+}
+
 body {
   font-family: Poppins, sans-serif;
   font-weight: 100;
@@ -11,8 +23,9 @@ body {
 
 .main-head {
   background-image: url("../images/background\ menu.jpg");
-  height: 350px;
+  height: 400px;
   color: #fff;
+  background-size: cover;
 }
 
 .main-p {
@@ -57,7 +70,6 @@ body {
 .appetizer-four img {
   width: 95%;
   margin-left: 5px;
-  height: 250px;
 }
 
 .appetizers p,
@@ -78,13 +90,14 @@ body {
 }
 
 .order {
-  padding: 10px;
+  padding: 13px;
   background-color: #e4441c;
   color: #fff;
   border-radius: 20px;
   border: none;
-  margin-top: 20px;
   cursor: pointer;
+  width: 150px;
+  margin-top: 30px;
 }
 
 .buttond {
@@ -119,4 +132,142 @@ body {
 
 .dishesp {
   margin-bottom: 40px;
+}
+
+.desserts-head {
+  padding-top: 20px;
+}
+
+.desserts-head h2 {
+  margin-top: 30px;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.desserts-head h4 {
+  font-weight: 300;
+}
+
+.ma img {
+  width: 95%;
+  margin-top: 40px;
+  margin-left: -10px;
+}
+
+.ma {
+  text-align: center;
+}
+
+.desserts {
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-head {
+    height: 500px;
+  }
+
+  .main-p h2 {
+    padding-top: 150px;
+    font-size: 4rem;
+  }
+
+  .main-p p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+  }
+
+  .section-twob {
+    text-align: center;
+  }
+
+  .section-twob p {
+    margin-top: 15px;
+  }
+
+  .appetizers,
+  .appetizer-two,
+  .appetizer-three,
+  .appetizer-four {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .appetizers img,
+  .appetizer-two img,
+  .appetizer-three img,
+  .appetizer-four img {
+    height: 400px;
+  }
+
+  .appetizers h4,
+  .appetizer-two h4,
+  .appetizer-three h4,
+  .appetizer-four h4 {
+    margin-top: 100px;
+  }
+
+  .dish-div {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    margin-top: 60px;
+  }
+
+  .hangbur,
+  .chees-bur,
+  .chicken-fries,
+  .pizza,
+  .spegetti,
+  .frie-rice {
+    text-align: center;
+  }
+
+  .dishesp {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .ma-div,
+  .maa-div,
+  .maaa-div,
+  .maaaa-div {
+    width: 400px;
+    background-color: #eefd12;
+    margin-bottom: 20px;
+    justify-self: center;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .mama {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .desserts-head h2 {
+    font-size: 2.3rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .desserts-head h4 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .ma img {
+    height: 300px;
+    margin-left: 5px;
+  }
+
+  .template {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bars {
+    display: flex;
+    gap: 2rem;
+  }
 }
