@@ -16,6 +16,34 @@ body {
   padding: 5px;
 }
 
+.icon {
+  display: grid;
+  text-align: justify;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.always button {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #e4441c;
+  border: none;
+  color: white;
+  margin-top: 15px;
+}
+
+.icon svg {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.name {
+  margin-top: 6px;
+}
+
 nav {
   display: none;
 }
@@ -38,11 +66,6 @@ nav {
   border-radius: 20px;
   border: none;
   background-color: #fbfb5b;
-}
-
-svg {
-  width: 20px;
-  height: 20px;
 }
 
 img {
