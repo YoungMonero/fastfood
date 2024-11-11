@@ -21,6 +21,11 @@ body {
   text-align: justify;
 }
 
+svg {
+    width: 20px;
+    height: 20px;
+}
+
 .always button {
   padding: 10px;
   border-radius: 15px;
@@ -61,11 +66,6 @@ nav {
   border-radius: 20px;
   border: none;
   background-color: #fbfb5b;
-}
-
-svg {
-  width: 20px;
-  height: 20px;
 }
 
 img {
