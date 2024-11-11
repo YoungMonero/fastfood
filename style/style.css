@@ -7,14 +7,13 @@
   font-family: "Matemasie", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color:#e4441c;
+  color: #e4441c;
   font-size: 2rem;
 }
 
 header {
   padding: 7px;
 }
-
 
 body {
   font-family: Poppins, sans-serif;
@@ -169,7 +168,7 @@ body {
   .main-head {
     height: 500px;
   }
-  .main-p h2{
+  .main-p h2 {
     padding-top: 150px;
     font-size: 4rem;
   }
@@ -210,10 +209,10 @@ body {
   }
 
   .dish-div {
-   display: grid;
-   grid-template-columns: 48% 48%;
-   margin-top: 60px;
-}
+    display: grid;
+    grid-template-columns: 48% 48%;
+    margin-top: 60px;
+  }
 
   .hangbur,
   .chees-bur,
@@ -272,4 +271,3 @@ body {
     gap: 2rem;
   }
 }
-
